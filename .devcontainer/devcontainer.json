@@ -1,0 +1,9 @@
+{
+    "name": "Lab Env",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools"
+    ]
+}
