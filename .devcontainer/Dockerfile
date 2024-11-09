@@ -1,8 +1,7 @@
-FROM alpine:latest
+FROM ubuntu:latest
 
 #install deps
-RUN apk update
-RUN apk add --no-cache bash curl
+RUN apt-get update && apt-get install -y bash
 #COPY /workspaces/labs/binaries/hello /usr/local/bin
 
-CMD ["bash"]
+ENTRYPOINT ["/bin/bash"]
