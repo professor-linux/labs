@@ -1,39 +1,55 @@
 Objectives for grep Project
 
-Search for a Specific Word: Use grep to search for a specific word within a file.
-Count Occurrences of a Word: Find out how many times a specific word appears in a file.
-Case-Insensitive Search: Search for a word without regard to case sensitivity.
-Display Line Numbers: Show line numbers for each matching line.
-Invert Match: Display lines that do not contain the specified word.
-Search for Whole Words Only: Search for a word as a whole term rather than as a substring.
-Recursive Directory Search: Use grep to search through directories and subdirectories.
-Pattern Matching with GRE: Use extended regular expressions to match multiple patterns.
-File Setup
-To keep things organized, create a directory structure like this:
+
+use chmod +x on grep_tasks.h as this will grade your project.
+
 
 Directory: /workspaces/labs
 
 
-Objectives
+Task 1: Search for a Specific Word
 
-Learn the syntax and basic usage of grep.
-Experiment with various grep flags to achieve different outcomes.
-Understand the different algorithms used in grep for pattern matching.
-Getting Started
+Objective: Use grep to search for the word "fox" in sample_text.txt.
+Instructions: Use a basic grep command to find all lines containing "fox." This task helps you understand how to locate a specific word in a file.
+Task 2: Count Occurrences of a Word
 
-To get started, make sure you’re in a Codespaces environment and open a terminal session. We’ll work with a series of example files to practice our commands.
+Objective: Count the number of times the word "fox" appears in the file.
+Instructions: Use grep to show only matches for "fox" and then count them. This task teaches you how to check the frequency of a word in a file.
+Task 3: Case-Insensitive Search
 
-grep Flags We’ll Cover
+Objective: Search for the word "grep" without worrying about capitalization (finds "GREP," "grep," etc.).
+Instructions: Modify your grep command to ignore capitalization, making your search case-insensitive. This is useful when you don’t know how a word might be capitalized in a file.
+Task 4: Display Line Numbers
 
-We'll explore several flags to see how grep behaves with each:
+Objective: Display the line numbers for each line containing the word "fox".
+Instructions: Adjust your grep command to show the line number alongside each match for "fox." This helps you locate specific lines in a file.
+Task 5: Invert Match
 
--c: Count the number of occurrences of a word.
--i: Case-insensitive matching.
--v: Invert match, showing lines that do not contain the specified pattern.
--w: Match whole words only.
--n: Display line numbers along with matching lines.
--r: Recursive search through directories.
-Each of these flags serves a different purpose, allowing for flexible and powerful search capabilities.
+Objective: Display all lines that do not contain the word "fox".
+Instructions: Set up grep to show only the lines that do not include "fox." This is helpful when you want to exclude specific content from your search results.
+Task 6: Whole Word Search
+
+Objective: Search for "dog" as a whole word, so it won’t match parts of words like "dogged" or "doghouse."
+Instructions: Configure your grep command to find "dog" only as a standalone word. This is useful when you need exact matches for whole words, not parts of words.
+Task 7: Recursive Directory Search
+
+Objective: Search for the word "fox" in all files within a directory and its subdirectories.
+Instructions: Use grep to search through multiple files by making it recursive. This allows you to find matches across multiple files in different folders.
+Task 8: Pattern Matching with Extended Regular Expressions (GRE)
+
+Objective: Use extended pattern matching to search for either "fox" or "dog".
+Instructions: Apply extended regular expressions to search for multiple patterns in one command. This is a powerful way to match more complex patterns in your searches.
+
+
+
+
+
+
+
+
+
+
+
 
 Algorithms: GRE vs. BRE
 
