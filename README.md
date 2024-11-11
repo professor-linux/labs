@@ -7,40 +7,55 @@ use chmod +x on grep_tasks.h as this will grade your project.
 Directory: /workspaces/labs
 
 
+Task-by-Task Instructions
+Use sample_text.txt as your input file for each task. Here’s what you need to do:
+
 Task 1: Search for a Specific Word
 
 Objective: Use grep to search for the word "fox" in sample_text.txt.
-Instructions: Use a basic grep command to find all lines containing "fox." This task helps you understand how to locate a specific word in a file.
+Instructions: Use a grep command that outputs all lines containing "fox" and save the output in /workspaces/labs/obj-1.txt.
+
+
 Task 2: Count Occurrences of a Word
 
-Objective: Count the number of times the word "fox" appears in the file.
-Instructions: Use grep to show only matches for "fox" and then count them. This task teaches you how to check the frequency of a word in a file.
+Objective: Count how many times the word "fox" appears in the file.
+Instructions: Modify your grep command to show only the occurrences of "fox," then count them and save the count in /workspaces/labs/obj-2.txt.
+
+
 Task 3: Case-Insensitive Search
 
 Objective: Search for the word "grep" without worrying about capitalization (finds "GREP," "grep," etc.).
-Instructions: Modify your grep command to ignore capitalization, making your search case-insensitive. This is useful when you don’t know how a word might be capitalized in a file.
+Instructions: Use a grep command that performs a case-insensitive search for "grep," and save the result in /workspaces/labs/obj-3.txt.
+
+
 Task 4: Display Line Numbers
 
 Objective: Display the line numbers for each line containing the word "fox".
-Instructions: Adjust your grep command to show the line number alongside each match for "fox." This helps you locate specific lines in a file.
+Instructions: Configure your grep command to show the line number for each line that contains "fox" and save it in /workspaces/labs/obj-4.txt.
+
+
 Task 5: Invert Match
 
 Objective: Display all lines that do not contain the word "fox".
-Instructions: Set up grep to show only the lines that do not include "fox." This is helpful when you want to exclude specific content from your search results.
+Instructions: Use grep to output only the lines that do not include "fox" and save them in /workspaces/labs/obj-5.txt.
+
+
 Task 6: Whole Word Search
 
-Objective: Search for "dog" as a whole word, so it won’t match parts of words like "dogged" or "doghouse."
-Instructions: Configure your grep command to find "dog" only as a standalone word. This is useful when you need exact matches for whole words, not parts of words.
+Objective: Search for "dog" as a whole word, so it won’t match words like "dogged" or "doghouse."
+Instructions: Use grep to search for "dog" as a whole word only and save the result in /workspaces/labs/obj-6.txt.
+
+
 Task 7: Recursive Directory Search
 
 Objective: Search for the word "fox" in all files within a directory and its subdirectories.
-Instructions: Use grep to search through multiple files by making it recursive. This allows you to find matches across multiple files in different folders.
-Task 8: Pattern Matching with Extended Regular Expressions (GRE)
-
-Objective: Use extended pattern matching to search for either "fox" or "dog".
-Instructions: Apply extended regular expressions to search for multiple patterns in one command. This is a powerful way to match more complex patterns in your searches.
+Instructions: Run a grep command that searches for "fox" in all files under /workspaces/labs/ and save the output in /workspaces/labs/obj-7.txt.
 
 
+Task 8: Pattern Matching with Extended Regular Expressions
+
+Objective: Use pattern matching to search for either "fox" or "dog".
+Instructions: Use a grep command with extended regular expressions to search for both "fox" and "dog" in sample_text.txt. Save the results in /workspaces/labs/obj-8.txt.
 
 
 
