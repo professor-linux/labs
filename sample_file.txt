@@ -1,0 +1,6 @@
+Hello, welcome to the grep tutorial.
+The quick brown fox jumps over the lazy dog.
+Foxes are known for their cunning and agility.
+The brown fox is fast, but the lazy dog is faster.
+This is a simple test file for grep commands.
+GREP is case-sensitive by default, but we can change that.
